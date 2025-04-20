@@ -2292,8 +2292,12 @@ p {
   background-color: var(--dark-theme-black);
 }
 
-.dark-theme .services-item .image {
+/* .dark-theme .services-item .image {
   background-color: var(--dark-theme-bg);
+} */
+
+.dark-theme .services-item .image {
+  filter: invert(1) brightness(2);
 }
 
 .dark-theme .services-item .text .title {
